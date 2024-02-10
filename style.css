@@ -1,0 +1,38 @@
+.grid-cont{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #F2FFE9;
+  height: 100vh;
+}
+.flex-cont{
+  display: flex;
+  position: inherit;
+  flex-direction: column;
+  background-color: #A6CF98;
+  flex-basis: 100px;
+  padding-top: 50px;
+  padding-right: 30px;
+  align-items: end;
+  gap: 30px;
+  height: 100vh;
+}
+
+.flex-cont a{
+  text-decoration: none;
+  color:black;
+  font-family: cursive;
+  font-size: xx-large;
+}
+
+.aele a{
+  
+  text-decoration: none;
+  color:black;
+  font-family: cursive;
+  font-size: small;
+  align-items: end;
+  text-align: right;
+}
+.flex-cont img{
+  border-radius: 150px;
+}
